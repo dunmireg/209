@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+.bar {
+  fill: steelblue;
+}
+.bar:hover {
+  fill: brown;
+}
+.axis {
+  font: 10px sans-serif;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.x.axis path {
+  display: none;
+}
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+
+</style>
+<body>
+  <h1>Ted's Steps Taken February 2016</h1>
+  <button id="sortAsc" onclick="sortBarsAsc()">Sort Asc</button>
+  <button id="reset" onclick="reset()">Reset</button>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<script type = "text/javascript" src = 'homeworkbar.js'>
+//Under advice from Hussein Danish the following were used as references
+// Barchart and highlighting: https://bl.ocks.org/mbostock/3885304
+// Sorting barcharts 1: http://bl.ocks.org/mbostock/3885705
+// Sorting barcharts 2: http://jsfiddle.net/enigmarm/3HL4a/13/
+// Tooltips for barcharts: http://bl.ocks.org/Caged/6476579
+
+</script>
+</body>
